@@ -1,0 +1,1624 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mohd Sufiyan Ansari | SEO Executive Portfolio</title>
+  <meta name="description" content="Portfolio of Mohd Sufiyan Ansari, SEO Executive with experience in technical SEO, on-page SEO, keyword research, link building, Google Search Console, GA4, GMB, and content optimization." />
+  <meta name="author" content="Mohd Sufiyan Ansari" />
+  <meta name="theme-color" content="#000000" />
+
+  <meta property="og:title" content="Mohd Sufiyan Ansari | SEO Executive Portfolio" />
+  <meta property="og:description" content="SEO Executive specializing in technical SEO, keyword research, on-page optimization, link building, GMB, GA4, and search performance." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mohd Sufiyan Ansari",
+    "jobTitle": "SEO Executive",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kanpur",
+      "addressRegion": "Uttar Pradesh",
+      "addressCountry": "IN"
+    },
+    "knowsAbout": [
+      "SEO",
+      "Technical SEO",
+      "On-page SEO",
+      "Off-page SEO",
+      "Link Building",
+      "Keyword Research",
+      "Content Marketing",
+      "Google Search Console",
+      "Google Analytics 4",
+      "Google Business Profile",
+      "ORM"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Rojus Solution Pvt. Ltd."
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #000000;
+      --surface: #0a0a0a;
+      --surface-2: #101010;
+      --text: #ffffff;
+      --muted: rgba(255, 255, 255, 0.62);
+      --muted-strong: rgba(255, 255, 255, 0.84);
+      --accent: #3dff7a;
+      --accent-2: #18a850;
+      --accent-soft: rgba(61, 255, 122, 0.12);
+      --border: rgba(255, 255, 255, 0.10);
+      --border-strong: rgba(255, 255, 255, 0.18);
+      --danger: #d63637;
+
+      --radius-sm: 14px;
+      --radius-md: 20px;
+      --radius-lg: 30px;
+      --radius-pill: 999px;
+
+      --shadow-mid: 0 4px 10px -2px rgba(0, 0, 0, 0.35);
+      --shadow-deep: 0 25px 70px rgba(0, 0, 0, 0.45);
+
+      --container: 1160px;
+      --header-h: 72px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: calc(var(--header-h) + 20px);
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Roboto", system-ui, -apple-system, Segoe UI, sans-serif;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    body.menu-open {
+      overflow: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    button,
+    input,
+    textarea,
+    select {
+      font: inherit;
+    }
+
+    :focus-visible {
+      outline: 3px solid rgba(61, 255, 122, 0.45);
+      outline-offset: 3px;
+    }
+
+    ::selection {
+      background: var(--accent);
+      color: #06120a;
+    }
+
+    .container {
+      width: min(100% - 40px, var(--container));
+      margin: 0 auto;
+    }
+
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 10px;
+      z-index: 999;
+      padding: 12px 18px;
+      background: var(--accent);
+      color: #06120a;
+      border-radius: var(--radius-pill);
+      font-weight: 700;
+    }
+
+    .skip-link:focus {
+      left: 20px;
+    }
+
+    /* Header */
+    .site-header {
+      position: fixed;
+      inset: 0 0 auto 0;
+      z-index: 100;
+      height: var(--header-h);
+      background: rgba(0, 0, 0, 0.74);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-inner {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: normal;
+    }
+
+    .brand span {
+      color: var(--accent);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      font-size: 15px;
+      font-weight: 500;
+      transition: color 0.25s ease;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--accent);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .menu-toggle {
+      display: none;
+      width: 44px;
+      height: 44px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 5px;
+      padding: 0;
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+    }
+
+    .menu-toggle span {
+      display: block;
+      width: 18px;
+      height: 2px;
+      background: var(--text);
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .menu-toggle[aria-expanded="true"] span:nth-child(1) {
+      transform: translateY(7px) rotate(45deg);
+    }
+
+    .menu-toggle[aria-expanded="true"] span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .menu-toggle[aria-expanded="true"] span:nth-child(3) {
+      transform: translateY(-7px) rotate(-45deg);
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 14px 28px;
+      border: 1px solid transparent;
+      border-radius: var(--radius-pill);
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.25s ease, background 0.25s ease, border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
+      white-space: nowrap;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #06120a;
+      box-shadow: 0 14px 36px rgba(61, 255, 122, 0.18);
+    }
+
+    .btn-primary:hover {
+      background: #4fff7e;
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--accent);
+      border-color: rgba(61, 255, 122, 0.45);
+    }
+
+    .btn-outline:hover {
+      background: rgba(61, 255, 122, 0.08);
+      border-color: var(--accent);
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--text);
+      border-color: var(--border);
+    }
+
+    .btn-ghost:hover {
+      border-color: var(--border-strong);
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .btn-sm {
+      min-height: 42px;
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+
+    /* Hero */
+    .hero {
+      position: relative;
+      min-height: 100svh;
+      display: grid;
+      align-items: center;
+      padding: calc(var(--header-h) + 60px) 0 90px;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background:
+        radial-gradient(720px 460px at 78% 16%, rgba(61, 255, 122, 0.13), transparent 62%),
+        radial-gradient(560px 420px at 10% 78%, rgba(24, 168, 80, 0.10), transparent 64%);
+    }
+
+    .hero-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 16px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-pill);
+      color: var(--muted-strong);
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      background: rgba(10, 10, 10, 0.52);
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 4px rgba(61, 255, 122, 0.12);
+    }
+
+    .hero h1 {
+      margin: 24px 0 14px;
+      font-size: clamp(42px, 7vw, 72px);
+      line-height: 1.05;
+      font-weight: 600;
+      letter-spacing: normal;
+    }
+
+    .hero-role {
+      margin: 0 0 20px;
+      color: var(--accent);
+      font-size: clamp(22px, 3vw, 32px);
+      line-height: 1.2;
+      font-weight: 600;
+    }
+
+    .hero-copy {
+      max-width: 680px;
+      margin: 0;
+      color: var(--muted);
+      font-size: clamp(16px, 2vw, 19px);
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 34px;
+    }
+
+    .hero-card {
+      background: rgba(10, 10, 10, 0.78);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 30px;
+      box-shadow: var(--shadow-deep);
+    }
+
+    .hero-card h2 {
+      margin: 0 0 20px;
+      font-size: 22px;
+      line-height: 1.25;
+      font-weight: 600;
+    }
+
+    .hero-card-list {
+      display: grid;
+      gap: 16px;
+    }
+
+    .hero-card-item {
+      display: grid;
+      gap: 4px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-card-item:last-child {
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+
+    .hero-card-label {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .hero-card-value {
+      color: var(--text);
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    /* Sections */
+    .section {
+      padding: 100px 0;
+      border-top: 1px solid var(--border);
+    }
+
+    .section-head {
+      margin-bottom: 50px;
+    }
+
+    .section-title {
+      margin: 0 0 14px;
+      font-size: clamp(32px, 4.5vw, 48px);
+      line-height: 1.15;
+      font-weight: 600;
+    }
+
+    .section-sub {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    /* Metrics */
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 30px;
+    }
+
+    .metric {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 30px;
+      box-shadow: var(--shadow-mid);
+    }
+
+    .metric-value {
+      color: var(--accent);
+      font-size: clamp(34px, 4vw, 46px);
+      line-height: 1;
+      font-weight: 700;
+    }
+
+    .metric-label {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* About */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 50px;
+      align-items: start;
+    }
+
+    .about-text p {
+      margin: 0 0 20px;
+      color: var(--muted-strong);
+      font-size: 18px;
+    }
+
+    .about-text p:last-child {
+      margin-bottom: 0;
+    }
+
+    .about-highlights {
+      display: grid;
+      gap: 20px;
+    }
+
+    .about-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 26px;
+      box-shadow: var(--shadow-mid);
+    }
+
+    .about-card h3 {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 20px;
+      line-height: 1.3;
+      font-weight: 600;
+    }
+
+    .about-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* Skills */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+
+    .skill-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 30px;
+      box-shadow: var(--shadow-mid);
+      transition: transform 0.25s ease, border-color 0.25s ease;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(61, 255, 122, 0.28);
+    }
+
+    .skill-card h3 {
+      margin: 0 0 16px;
+      font-size: 22px;
+      line-height: 1.3;
+      font-weight: 600;
+    }
+
+    .skill-list {
+      display: grid;
+      gap: 12px;
+      color: var(--muted);
+    }
+
+    .skill-list li::before {
+      content: "—";
+      color: var(--accent);
+      margin-right: 10px;
+    }
+
+    /* Experience */
+    .timeline {
+      display: grid;
+      gap: 30px;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-left: 10px;
+      padding: 30px 30px 30px 34px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 2px solid rgba(61, 255, 122, 0.28);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-mid);
+    }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -8px;
+      top: 36px;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 6px rgba(61, 255, 122, 0.12);
+    }
+
+    .timeline-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: start;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 18px;
+    }
+
+    .timeline-role {
+      margin: 0;
+      font-size: 24px;
+      line-height: 1.25;
+      font-weight: 600;
+    }
+
+    .timeline-company {
+      margin: 6px 0 0;
+      color: var(--accent);
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .timeline-date {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .timeline-points {
+      display: grid;
+      gap: 12px;
+      color: var(--muted-strong);
+    }
+
+    .timeline-points li::before {
+      content: "—";
+      color: var(--accent);
+      margin-right: 10px;
+    }
+
+    .timeline-clients {
+      margin-top: 18px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .timeline-clients strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    /* Two column panels */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 30px;
+      box-shadow: var(--shadow-mid);
+    }
+
+    .panel h3 {
+      margin: 0 0 22px;
+      font-size: 24px;
+      line-height: 1.25;
+      font-weight: 600;
+    }
+
+    .panel-list {
+      display: grid;
+      gap: 16px;
+    }
+
+    .panel-item {
+      display: grid;
+      gap: 4px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .panel-item:last-child {
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+
+    .panel-title {
+      color: var(--text);
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .panel-meta {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    /* Tools */
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 12px 20px;
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--muted-strong);
+      font-size: 15px;
+      font-weight: 500;
+      transition: color 0.25s ease, border-color 0.25s ease, background 0.25s ease, transform 0.25s ease;
+    }
+
+    .chip:hover {
+      color: var(--accent);
+      border-color: rgba(61, 255, 122, 0.42);
+      background: rgba(61, 255, 122, 0.06);
+      transform: translateY(-2px);
+    }
+
+    /* Contact */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 50px;
+      align-items: start;
+    }
+
+    .contact-info {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 30px;
+      box-shadow: var(--shadow-mid);
+    }
+
+    .contact-info h3 {
+      margin: 0 0 16px;
+      font-size: 26px;
+      line-height: 1.25;
+      font-weight: 600;
+    }
+
+    .contact-info p {
+      margin: 0 0 24px;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .contact-links {
+      display: grid;
+      gap: 14px;
+    }
+
+    .contact-link {
+      display: grid;
+      gap: 4px;
+      padding: 18px;
+      background: rgba(255, 255, 255, 0.025);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      transition: border-color 0.25s ease, transform 0.25s ease;
+    }
+
+    .contact-link:hover {
+      border-color: rgba(61, 255, 122, 0.35);
+      transform: translateY(-2px);
+    }
+
+    .contact-link-label {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .contact-link-value {
+      color: var(--text);
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .form {
+      display: grid;
+      gap: 20px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 30px;
+      box-shadow: var(--shadow-mid);
+    }
+
+    .field {
+      display: grid;
+      gap: 8px;
+    }
+
+    .field label {
+      color: var(--muted-strong);
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .field input,
+    .field textarea {
+      width: 100%;
+      min-height: 52px;
+      padding: 15px 16px;
+      background: #080808;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--text);
+      transition: border-color 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .field textarea {
+      min-height: 160px;
+      resize: vertical;
+    }
+
+    .field input:focus,
+    .field textarea:focus {
+      outline: none;
+      border-color: rgba(61, 255, 122, 0.55);
+      box-shadow: 0 0 0 4px rgba(61, 255, 122, 0.10);
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .form-status {
+      min-height: 24px;
+      color: var(--accent);
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    /* Footer */
+    .site-footer {
+      padding: 40px 0;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .footer-inner a {
+      color: var(--muted);
+      transition: color 0.25s ease;
+    }
+
+    .footer-inner a:hover {
+      color: var(--accent);
+    }
+
+    /* Reveal */
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      .reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+      }
+
+      .btn:hover,
+      .skill-card:hover,
+      .chip:hover,
+      .contact-link:hover {
+        transform: none;
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .hero-grid,
+      .about-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .metrics {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 760px) {
+      .menu-toggle {
+        display: inline-flex;
+      }
+
+      .nav-actions .btn {
+        display: none;
+      }
+
+      .nav-links {
+        position: fixed;
+        top: var(--header-h);
+        right: 0;
+        bottom: 0;
+        width: min(320px, 86vw);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 22px;
+        padding: 30px;
+        background: #050505;
+        border-left: 1px solid var(--border);
+        box-shadow: var(--shadow-deep);
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+      }
+
+      .nav-links.open {
+        transform: translateX(0);
+      }
+
+      .nav-links a {
+        font-size: 18px;
+      }
+
+      .section {
+        padding: 80px 0;
+      }
+
+      .hero {
+        padding: calc(var(--header-h) + 50px) 0 70px;
+      }
+
+      .two-col {
+        grid-template-columns: 1fr;
+      }
+
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+
+      .timeline-item {
+        padding: 24px 20px 24px 28px;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .metrics {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-actions .btn {
+        width: 100%;
+      }
+
+      .timeline-header {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">Sufiyan<span>.</span></a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#tools">Tools</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn btn-primary btn-sm" href="#contact">Hire Me</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="eyebrow">
+            <span class="dot" aria-hidden="true"></span>
+            SEO Executive Portfolio
+          </div>
+
+          <h1>Mohd Sufiyan Ansari</h1>
+
+          <p class="hero-role">Technical SEO, On-Page Optimization & Search Growth</p>
+
+          <p class="hero-copy">
+            I am a dedicated SEO Executive with 2+ years of hands-on experience managing and optimizing
+            websites for local and international markets. I focus on on-page SEO, off-page SEO, technical SEO,
+            keyword research, link building, ORM, Google Search Console, GA4, and Google Business Profile
+            optimization to improve visibility, traffic, and rankings.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#experience">View Experience</a>
+            <a class="btn btn-outline" href="resume.pdf" download>Download Resume</a>
+          </div>
+        </div>
+
+        <aside class="hero-card reveal" aria-label="Quick profile summary">
+          <h2>At a glance</h2>
+
+          <div class="hero-card-list">
+            <div class="hero-card-item">
+              <div class="hero-card-label">Current Role</div>
+              <div class="hero-card-value">SEO Executive at Rojus Solution Pvt. Ltd.</div>
+            </div>
+
+            <div class="hero-card-item">
+              <div class="hero-card-label">Experience</div>
+              <div class="hero-card-value">2+ years in SEO and digital marketing</div>
+            </div>
+
+            <div class="hero-card-item">
+              <div class="hero-card-label">Focus Areas</div>
+              <div class="hero-card-value">Technical SEO, GSC, GA4, Keyword Research, Link Building, GMB</div>
+            </div>
+
+            <div class="hero-card-item">
+              <div class="hero-card-label">Location</div>
+              <div class="hero-card-value">Kanpur, Uttar Pradesh, India</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Metrics -->
+    <section class="section" aria-label="Professional snapshot">
+      <div class="container">
+        <div class="metrics">
+          <article class="metric reveal">
+            <div class="metric-value">2+</div>
+            <div class="metric-label">Years of SEO experience</div>
+          </article>
+
+          <article class="metric reveal">
+            <div class="metric-value">22+</div>
+            <div class="metric-label">Projects handled across careers</div>
+          </article>
+
+          <article class="metric reveal">
+            <div class="metric-value">10+</div>
+            <div class="metric-label">Educational institutions currently managed</div>
+          </article>
+
+          <article class="metric reveal">
+            <div class="metric-value">GSC</div>
+            <div class="metric-label">Indexing, performance tracking & issue fixing</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-sub">
+            Data-driven SEO professional with experience across technical audits, content optimization,
+            search analytics, local SEO, and reputation management.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I am Mohd Sufiyan Ansari, an SEO Executive with hands-on experience in managing and optimizing
+              websites for both local and international markets. My work covers on-page SEO, off-page SEO,
+              technical SEO, link building, ORM, keyword research, content optimization, and performance reporting.
+            </p>
+
+            <p>
+              I have contributed to successful projects at Rojus Solution, Socialinq, Webixy Technology, and
+              iWay Digital. Currently, I manage SEO operations for multiple educational institutions, including
+              several Delhi Public School branches and Allen Kids centers.
+            </p>
+
+            <p>
+              I use tools such as Google Search Console, Google Analytics 4, Semrush, Ahrefs, Keyword Planner,
+              GTmetrix, and Google Trends to analyze search performance, identify opportunities, fix technical
+              issues, and support long-term organic growth.
+            </p>
+          </div>
+
+          <div class="about-highlights">
+            <article class="about-card reveal">
+              <h3>Search Visibility</h3>
+              <p>Keyword research, SERP analysis, competitor review, and content targeting to improve rankings.</p>
+            </article>
+
+            <article class="about-card reveal">
+              <h3>Technical Foundation</h3>
+              <p>Indexing, crawlability, site health audits, GSC monitoring, and performance issue resolution.</p>
+            </article>
+
+            <article class="about-card reveal">
+              <h3>Authority & Local SEO</h3>
+              <p>Link building, guest posting, ORM, Google Business Profile optimization, and local presence growth.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Core SEO Skills</h2>
+          <p class="section-sub">
+            Practical SEO capabilities across technical, on-page, off-page, analytics, and local search.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <h3>On-Page SEO</h3>
+            <ul class="skill-list">
+              <li>Meta title and description optimization</li>
+              <li>Heading structure and content optimization</li>
+              <li>Internal linking strategy</li>
+              <li>Keyword placement and readability</li>
+              <li>URL structure improvements</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Technical SEO</h3>
+            <ul class="skill-list">
+              <li>Google Search Console auditing</li>
+              <li>Indexing and coverage issue fixing</li>
+              <li>Crawl error analysis</li>
+              <li>Site health checks</li>
+              <li>Performance and Core Web Vitals support</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Keyword Research</h3>
+            <ul class="skill-list">
+              <li>Search demand analysis</li>
+              <li>Competitor keyword review</li>
+              <li>Intent-based keyword mapping</li>
+              <li>Local and service keywords</li>
+              <li>Content topic planning</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Off-Page SEO</h3>
+            <ul class="skill-list">
+              <li>Link building outreach</li>
+              <li>Guest posting</li>
+              <li>Backlink quality monitoring</li>
+              <li>Toxic link identification</li>
+              <li>Domain authority support</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Analytics & Reporting</h3>
+            <ul class="skill-list">
+              <li>Google Analytics 4 tracking</li>
+              <li>Traffic and behavior analysis</li>
+              <li>Ranking performance reports</li>
+              <li>Monthly progress reporting</li>
+              <li>Data-driven improvement plans</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Local SEO & ORM</h3>
+            <ul class="skill-list">
+              <li>Google Business Profile optimization</li>
+              <li>Local listing consistency</li>
+              <li>Review and reputation monitoring</li>
+              <li>ORM management</li>
+              <li>Location-based search visibility</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-sub">
+            SEO roles across educational institutions, digital agencies, and multi-client environments.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">SEO Executive</h3>
+                <p class="timeline-company">Rojus Solution Pvt. Ltd.</p>
+              </div>
+              <div class="timeline-date">Jan 2026 – Present</div>
+            </div>
+
+            <ul class="timeline-points">
+              <li>Managing SEO for 10+ educational institutions across multiple locations.</li>
+              <li>Working on Google Search Console for performance tracking, indexing, and issue fixing.</li>
+              <li>Monitoring and analyzing website traffic using Google Analytics 4.</li>
+              <li>Performing keyword research and search analysis to improve rankings.</li>
+              <li>Executing on-page SEO including meta tags, headings, and content optimization.</li>
+              <li>Conducting technical SEO audits for indexing, crawl issues, and site health.</li>
+              <li>Managing and optimizing Google Business Profiles for local visibility.</li>
+              <li>Coordinating with the content team for SEO-friendly content implementation.</li>
+            </ul>
+
+            <div class="timeline-clients">
+              <strong>Key clients:</strong> Delhi Public School branches including Amrapali Kalyanpur, Jankipuram,
+              Unnao, Indira Nagar, Saharanpur, Bareilly, Gomti Nagar, and Gomti Nagar Junior; Allen Kids locations
+              including Mukherjee Vihar and Bareilly.
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">SEO Executive</h3>
+                <p class="timeline-company">Socialinq</p>
+              </div>
+              <div class="timeline-date">Sep 2025 – Dec 2025</div>
+            </div>
+
+            <ul class="timeline-points">
+              <li>Handled link building and off-page SEO activities.</li>
+              <li>Performed keyword research and competitor analysis.</li>
+              <li>Executed on-page SEO optimizations for target pages.</li>
+              <li>Supported technical SEO audits and issue resolution.</li>
+              <li>Managed ORM activities to protect online reputation.</li>
+              <li>Prepared SEO audit reports and performance updates.</li>
+              <li>Optimized Google Business Profiles for local search presence.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">SEO Executive</h3>
+                <p class="timeline-company">Webixy Technology Pvt. Ltd.</p>
+              </div>
+              <div class="timeline-date">Sep 2024 – Aug 2025</div>
+            </div>
+
+            <ul class="timeline-points">
+              <li>Worked on link building, keyword research, and off-page strategy.</li>
+              <li>Implemented on-page SEO improvements across website pages.</li>
+              <li>Supported technical SEO audits and site performance reviews.</li>
+              <li>Managed ORM and brand reputation activities.</li>
+              <li>Created SEO audit reports for internal and client review.</li>
+              <li>Handled Google Business Profile optimization for local visibility.</li>
+              <li>Assisted with Google Ads campaigns and content writing support.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">SEO Executive</h3>
+                <p class="timeline-company">iWay Digital</p>
+              </div>
+              <div class="timeline-date">Mar 2023 – Apr 2024</div>
+            </div>
+
+            <ul class="timeline-points">
+              <li>Researched popular keywords related to client industries.</li>
+              <li>Identified competitors and analyzed their SEO strategies.</li>
+              <li>Used Google Keyword Planner and related tools for keyword discovery.</li>
+              <li>Tracked keyword rankings and website performance using analytics tools.</li>
+              <li>Analyzed traffic trends and user behavior for reporting.</li>
+              <li>Prepared monthly reports to track progress and identify improvements.</li>
+              <li>Reached out to authoritative websites for backlink opportunities.</li>
+              <li>Contributed guest posts and monitored toxic backlinks.</li>
+              <li>Developed SEO-friendly content with natural keyword usage.</li>
+              <li>Created engaging titles and headers for better readability and search relevance.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Education & Certifications</h2>
+          <p class="section-sub">
+            Academic background and digital marketing certifications supporting SEO practice.
+          </p>
+        </div>
+
+        <div class="two-col">
+          <article class="panel reveal">
+            <h3>Education</h3>
+
+            <div class="panel-list">
+              <div class="panel-item">
+                <div class="panel-title">Bachelor of Arts</div>
+                <div class="panel-meta">CSJM University, Kanpur · 2024 – Present</div>
+              </div>
+
+              <div class="panel-item">
+                <div class="panel-title">Digital Marketing Course</div>
+                <div class="panel-meta">NDMIT Digital Marketing Specialization, Kanpur, Uttar Pradesh</div>
+              </div>
+
+              <div class="panel-item">
+                <div class="panel-title">Intermediate</div>
+                <div class="panel-meta">The Model Intermediate College · 2014 – 2015</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel reveal">
+            <h3>Certifications</h3>
+
+            <div class="panel-list">
+              <div class="panel-item">
+                <div class="panel-title">NDMCC by NDMIT</div>
+                <div class="panel-meta">Digital marketing certification</div>
+              </div>
+
+              <div class="panel-item">
+                <div class="panel-title">Digital Marketing by HubSpot</div>
+                <div class="panel-meta">HubSpot Academy</div>
+              </div>
+
+              <div class="panel-item">
+                <div class="panel-title">Google Search Ads</div>
+                <div class="panel-meta">Google Ads certification</div>
+              </div>
+
+              <div class="panel-item">
+                <div class="panel-title">Google Display Ads</div>
+                <div class="panel-meta">Google Ads certification</div>
+              </div>
+
+              <div class="panel-item">
+                <div class="panel-title">SEO by HubSpot</div>
+                <div class="panel-meta">HubSpot Academy</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools -->
+    <section class="section" id="tools">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">SEO Tools & Platforms</h2>
+          <p class="section-sub">
+            Tools used for research, tracking, auditing, reporting, and content support.
+          </p>
+        </div>
+
+        <div class="panel reveal">
+          <div class="chips">
+            <span class="chip">Google Search Console</span>
+            <span class="chip">Google Analytics 4</span>
+            <span class="chip">Semrush</span>
+            <span class="chip">Ahrefs</span>
+            <span class="chip">Keyword Planner</span>
+            <span class="chip">Google Trends</span>
+            <span class="chip">SEO Quake</span>
+            <span class="chip">Moz</span>
+            <span class="chip">GTmetrix</span>
+            <span class="chip">Canva</span>
+            <span class="chip">Google Business Profile</span>
+            <span class="chip">Microsoft Excel</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-sub">
+            Available for SEO Executive roles, freelance SEO projects, audits, and organic growth support.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <aside class="contact-info reveal">
+            <h3>Let’s work together</h3>
+            <p>
+              If you need help with technical SEO, on-page optimization, keyword research, link building,
+              GMB management, or search performance reporting, feel free to reach out.
+            </p>
+
+            <div class="contact-links">
+              <a class="contact-link" href="mailto:your.email@example.com">
+                <span class="contact-link-label">Email</span>
+                <span class="contact-link-value">your.email@example.com</span>
+              </a>
+
+              <a class="contact-link" href="resume.pdf" download>
+                <span class="contact-link-label">Resume</span>
+                <span class="contact-link-value">Download PDF</span>
+              </a>
+
+              <div class="contact-link">
+                <span class="contact-link-label">Location</span>
+                <span class="contact-link-value">Kanpur, Uttar Pradesh, India</span>
+              </div>
+
+              <div class="contact-link">
+                <span class="contact-link-label">Languages</span>
+                <span class="contact-link-value">Hindi, English</span>
+              </div>
+            </div>
+          </aside>
+
+          <form class="form reveal" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" required />
+              </div>
+
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" placeholder="SEO project inquiry" />
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell me about your website, goals, and current SEO challenges." required></textarea>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <div class="form-status" id="formStatus" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Mohd Sufiyan Ansari. All rights reserved.</div>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script>
+    const CONTACT_EMAIL = "your.email@example.com";
+
+    // Mobile menu
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", () => {
+      const isOpen = navLinks.classList.toggle("open");
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      document.body.classList.toggle("menu-open", isOpen);
+    });
+
+    navLinks.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        navLinks.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        document.body.classList.remove("menu-open");
+      });
+    });
+
+    // Active nav link
+    const sections = [...document.querySelectorAll("main section[id]")];
+    const navAnchors = [...navLinks.querySelectorAll("a")];
+
+    const sectionObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const id = entry.target.getAttribute("id");
+            navAnchors.forEach((anchor) => {
+              anchor.classList.toggle("active", anchor.getAttribute("href") === `#${id}`);
+            });
+          }
+        });
+      },
+      {
+        rootMargin: "-45% 0px -50% 0px",
+        threshold: 0.01
+      }
+    );
+
+    sections.forEach((section) => sectionObserver.observe(section));
+
+    // Reveal on scroll
+    const revealElements = [...document.querySelectorAll(".reveal")];
+
+    const revealObserver = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      {
+        threshold: 0.12,
+        rootMargin: "0px 0px -40px 0px"
+      }
+    );
+
+    revealElements.forEach((el) => revealObserver.observe(el));
+
+    // Contact form -> mailto
+    const form = document.getElementById("contactForm");
+    const formStatus = document.getElementById("formStatus");
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      const formData = new FormData(form);
+      const name = String(formData.get("name") || "").trim();
+      const email = String(formData.get("email") || "").trim();
+      const subject = String(formData.get("subject") || "").trim() || "Portfolio Contact Inquiry";
+      const message = String(formData.get("message") || "").trim();
+
+      if (!name || !email || !message) {
+        formStatus.style.color = "#d63637";
+        formStatus.textContent = "Please fill in your name, email, and message.";
+        return;
+      }
+
+      const emailBody = [
+        `Name: ${name}`,
+        `Email: ${email}`,
+        "",
+        message
+      ].join("\n");
+
+      const mailtoLink = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
+
+      formStatus.style.color = "#3dff7a";
+      formStatus.textContent = "Opening your email application...";
+
+      window.location.href = mailtoLink;
+      form.reset();
+    });
+
+    // Footer year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
